@@ -19,3 +19,91 @@ a {
   text-decoration: none;
   color: #008CBA;
 }
+.jumbotron{
+	background-color:  #343a40!important;
+	color: white;
+	
+}
+.container{
+	text-align: center;
+}
+h1{
+	
+	font-size: 4vw;
+}
+
+.navbar{
+	
+	width: 100% !important;
+}
+.b2{
+	border: none;
+	background-color: #32a8a4;
+	color: white;
+	font-weight: bold;
+	padding: 0.3vw 1vw 0.3vw 1vw; 	
+}
+
+.btn-rounded{
+	color: black;
+	background-color: white;
+	border-radius: 30px;
+	border:none;
+
+	  display: inline-block;
+  
+  /*margin-top:0.5vw;*/
+
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white !important;
+}
+  .row{
+  	margin-left: 0 !important;
+  	margin-right: 0 !important;
+  }
+
+@media (min-width: 544px) {  
+  li{font-size:1.2rem;} 
+   .btn-rounded{
+   	    font-size: 1rem;
+  	 	margin-top:0.8vw; 
+  	 }
+
+}
+ 
+
+@media (min-width: 768px) {  
+  li {font-size:1.2rem;
+  	 margin-top: 0.5vw;
+  	 margin-right:20px} 
+  	 .btn-rounded{
+        font-size: 1rem;
+  	 	margin-top:0.8vw;
+  	 }
+}
+
+ 
+
+@media (min-width: 992px) { 
+  li {font-size:1.2rem;
+  	 margin-top: 0.5vw;
+  	 margin-right:20px;
+  	} 
+.btn-rounded{
+  	 	font-size: 1rem;
+  	 	margin-top: 0.8vw
+  	 }  
+}
+ 
+
+@media (min-width: 1200px) {  
+  li{font-size:1.2rem;
+  	margin-top:0.5vw;
+  	margin-right:20px;}
+  	 .btn-rounded{
+  	 	font-size: 1rem;
+  	 	margin-top: 0.5vw
+  	 }  
+}
+
